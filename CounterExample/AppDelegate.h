@@ -9,6 +9,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (strong) IBOutlet NSTextField *field;
 
 @end
 
